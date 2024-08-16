@@ -57,5 +57,11 @@
             <button type="submit">Ingresar</button>
         </form>
     </div>
+      <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita que el formulario se envíe
+            window.location.href = 'home.html'; // Redirige a home.html
+        });
+    </script>
 </body>
 </html>
